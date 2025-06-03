@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RinjaniSoftware</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #16a085;
+      --bg: #f8f9fa;
+      --text: #2d3436;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--primary), #34495e);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #ecf0f1;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #636e72;
+    }
+
+    .btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 1rem;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #138d75;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>RinjaniSoftware</h1>
+    <p>Simple solutions, strong foundations — Inspired by nature, built for people.</p>
+    <a href="#about"><button class="btn">Learn More</button></a>
+  </header>
+
+  <section id="about">
+    <h2>Who We Are</h2>
+    <p>RinjaniSoftware is a small independent software company focused on building practical, elegant, and reliable solutions for mobile and web platforms.</p>
+  </section>
+
+  <section>
+    <h2>Our Vision</h2>
+    <p>Like Mount Rinjani — strong, dependable, and awe-inspiring — our goal is to deliver software that stands tall for years to come.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:hello@rinjanisoftware.com">hello@rinjanisoftware.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 RinjaniSoftware. All rights reserved.
+  </footer>
+
+</body>
+</html>
